@@ -6,7 +6,10 @@ You may possess a Forsaken minion, because possession does not form a group. Bef
 moves it still rolls the forsaken die and adheres to the results. The medium is no longer considered
 in play when possessing the forsaken, so if the forsaken is the only minion in play while possessed
 the wave will end as part of the neglected talent, and the medium will continue to possess the
-forsaken going into the next wave. Elfinkazi When you possess an Elfinkazi, the Roost talent from
+forsaken going into the next wave. 
+
+## Elfinkazi (posessed)
+When you possess an Elfinkazi, the Roost talent from
 the unit is on (if any) still applies. The roost talent does not specifically state that the unit
 must be friendly. The Elfinkazi cannot attack their roost unless they move adjacent to it, because
 the two share a hex and are therefore not adjacent to each other. When the Elfinkazi uses the
