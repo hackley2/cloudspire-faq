@@ -1,4 +1,4 @@
-# Cloudspire FAQ
+## Cloudspire FAQ
 
 #### _Unofficial_
 

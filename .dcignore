@@ -1,28 +1,28 @@
-# Write glob rules for ignored files.
-# Check syntax on https://deepcode.freshdesk.com/support/solutions/articles/60000531055-how-can-i-ignore-files-or-directories-
-# Check examples on https://github.com/github/gitignore
+## Write glob rules for ignored files.
+## Check syntax on https://deepcode.freshdesk.com/support/solutions/articles/60000531055-how-can-i-ignore-files-or-directories-
+## Check examples on https://github.com/github/gitignore
 
-# Hidden directories
+## Hidden directories
 .*/
 
-# FuelPHP
+## FuelPHP
 /fuel/vendor
 /docs/
 /fuel/app/logs/*/*/*
 /fuel/app/cache/*/*
 
-# Godot
+## Godot
 data_*/
 
-# Lilypond
+## Lilypond
 *~
 
-# Nim
+## Nim
 nimcache/
 nimblecache/
 htmldocs/
 
-# Android
+## Android
 bin/
 gen/
 out/
@@ -37,7 +37,7 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 
-# UnrealEngine
+## UnrealEngine
 Binaries/*
 Plugins/*/Binaries/*
 Build/*
@@ -48,7 +48,7 @@ Intermediate/*
 Plugins/*/Intermediate/*
 DerivedDataCache/*
 
-# Zephir
+## Zephir
 ext/build/
 ext/modules/
 ext/Makefile*
@@ -59,7 +59,7 @@ ext/missing
 ext/mkinstalldirs
 ext/libtool
 
-# Typo3
+## Typo3
 /fileadmin/user_upload/
 /fileadmin/_temp_/
 /fileadmin/_processed_/
@@ -71,13 +71,13 @@ ext/libtool
 /Packages
 /typo3temp/
 
-# Actionscript
+## Actionscript
 bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
 
-# WordPress
+## WordPress
 !wp-content/
 wp-content/*
 !wp-content/mu-plugins/
@@ -86,11 +86,11 @@ wp-content/*
 wp-content/themes/twenty*/
 node_modules/
 
-# Lithium
+## Lithium
 libraries/*
 resources/tmp/*
 
-# Python
+## Python
 __pycache__/
 build/
 develop-eggs/
@@ -122,19 +122,19 @@ venv.bak/
 /site
 cython_debug/
 
-# VVVV
+## VVVV
 bin/
 
-# CodeIgniter
+## CodeIgniter
 */config/development
 */cache/*
 application/logs/*
 /vendor/
 
-# AppEngine
+## AppEngine
 appengine-generated/
 
-# Objective-C
+## Objective-C
 xcuserdata/
 build/
 DerivedData/
@@ -142,19 +142,19 @@ Carthage/Build/
 fastlane/test_output
 iOSInjectionProject/
 
-# GWT
+## GWT
 war/gwt_bree/
 gwt-unitCache/
 war/WEB-INF/deploy/
 war/WEB-INF/classes/
 www-test/
 
-# Delphi
+## Delphi
 __history/
 __recovery/
 modules/
 
-# ROS
+## ROS
 devel/
 logs/
 build/
@@ -171,18 +171,18 @@ qtcreator-*
 *~
 CATKIN_IGNORE
 
-# Stella
+## Stella
 obj/
 
-# Jekyll
+## Jekyll
 _site/
 
-# MetaProgrammingSystem
+## MetaProgrammingSystem
 classes_gen
 source_gen
 test_gen
 
-# JENKINS_HOME
+## JENKINS_HOME
 !/jobs
 jobs/**
 !jobs/**/
@@ -190,13 +190,13 @@ builds
 indexing
 jobs/**/*workspace
 
-# Leiningen
+## Leiningen
 /lib/
 /classes/
 /target/
 /checkouts/
 
-# Laravel
+## Laravel
 /vendor/
 node_modules/
 app/storage/
@@ -205,22 +205,22 @@ public/hot
 public_html/storage
 public_html/hot
 
-# R
+## R
 /*.Rcheck/
 *_cache/
 /cache/
 docs/
 po/*~
 
-# Processing
+## Processing
 applet
 out
 
-# GitBook
+## GitBook
 node_modules
 _book
 
-# LemonStand
+## LemonStand
 /config/*
 /controllers/*
 /init/*
@@ -238,10 +238,10 @@ _book
 /modules/system/*
 /modules/users/*
 
-# ArchLinuxPackages
+## ArchLinuxPackages
 pkg/
 
-# Swift
+## Swift
 xcuserdata/
 build/
 DerivedData/
@@ -250,20 +250,20 @@ Dependencies/
 fastlane/test_output
 iOSInjectionProject/
 
-# Packer
+## Packer
 packer_cache/
 
-# Elixir
+## Elixir
 /_build
 /cover
 /deps
 /doc
 
-# Phalcon
+## Phalcon
 /cache/
 /config/development/
 
-# Unity
+## Unity
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -276,14 +276,14 @@ packer_cache/
 ExportedObj/
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Scrivener
+## Scrivener
 */QuickLook/
 
-# Kohana
+## Kohana
 application/cache/*
 application/logs/*
 
-# Prestashop
+## Prestashop
 /cache/*
 !/cache/push/activity
 !/cache/push/trends
@@ -333,18 +333,18 @@ themes/default-bootstrap/modules/*/mails/*
 /vendor/
 /web/bundles/
 
-# ExtJs
+## ExtJs
 build/
 ext/
 
-# CMake
+## CMake
 CMakeFiles
 CMakeScripts
 Testing
 Makefile
 _deps
 
-# Umbraco
+## Umbraco
 **/App_Data/Logs/
 **/App_Data/[Pp]review/
 **/App_Data/TEMP/
@@ -354,7 +354,7 @@ _deps
 !**/[Uu]mbraco/[Vv]iews/[Pp]ackages/*
 **/App_Data/cache/
 
-# CakePHP
+## CakePHP
 /vendor/*
 /tmp/cache/models/*
 !/tmp/cache/models/empty
@@ -371,10 +371,10 @@ _deps
 /app/tmp/*
 /vendors/*
 
-# Java
+## Java
 hs_err_pid*
 
-# Symfony
+## Symfony
 /app/cache/*
 /app/logs/*
 /app/spool/*
@@ -391,17 +391,17 @@ hs_err_pid*
 /build/
 **/Entity/*~
 
-# Composer
+## Composer
 /vendor/
 
-# SymphonyCMS
+## SymphonyCMS
 manifest/cache/
 manifest/logs/
 manifest/tmp/
 symphony/
 workspace/uploads/
 
-# JBoss6
+## JBoss6
 /server/all/data
 /server/all/log
 /server/all/tmp
@@ -423,7 +423,7 @@ workspace/uploads/
 /server/standard/tmp
 /server/standard/work
 
-# JBoss4
+## JBoss4
 /server/all/data
 /server/all/log
 /server/all/tmp
@@ -437,43 +437,43 @@ workspace/uploads/
 /server/minimal/tmp
 /server/minimal/work
 
-# Red
+## Red
 quick-test/runnable/
 system/tests/source/units/auto-tests/
 tests/source/units/auto-tests/
 
-# Snap
+## Snap
 parts/
 prime/
 stage/
 
-# Splunk
+## Splunk
 local
 
-# Hugo
+## Hugo
 /public/
 /resources/_gen/
 
-# Bazel
+## Bazel
 /bazel-*
 
-# Nikola
+## Nikola
 cache/
 output/
 
-# JupyterNotebooks
+## JupyterNotebooks
 profile_default/
 
-# Puppet
+## Puppet
 pkg/*
 spec/fixtures/*
 coverage/*
 vendor/*
 
-# Racket
+## Racket
 compiled/
 
-# Phoenix
+## Phoenix
 /tmp
 /node_modules
 /assets/node_modules
@@ -483,23 +483,23 @@ compiled/
 /installer/doc
 /installer/deps
 
-# Logtalk
+## Logtalk
 lgt_tmp/
 logtalk_tester_logs/
 logtalk_doclet_logs/
 
-# NWjs
+## NWjs
 locales/
 pnacl/
 
-# Cordova
+## Cordova
 /platforms
 
-# Vue
+## Vue
 docs/_book
 test/
 
-# Kentico
+## Kentico
 !CMS/CMSAdminControls/*/
 !CMS/CMSModules/System/*/
 !CMS/App_Data/CIRepository/**
@@ -533,12 +533,12 @@ CMS/EcommerceSite
 CMS/IntranetPortal
 CMS/PersonalSite
 
-# InforCMS
+## InforCMS
 [Mm]odel/[Dd]eployment
 !Model/Portal/*/SupportFiles/[Bb]in/
 !Model/Portal/PortalTemplates/*/SupportFiles/[Bb]in
 
-# Xilinx
+## Xilinx
 *_synth_*
 */*/bd/*/hdl
 */*/*/bd/*/hdl
@@ -547,7 +547,7 @@ CMS/PersonalSite
 hw_handoff
 ipshared
 
-# Pimcore
+## Pimcore
 /pimcore
 /website/var/assets/*
 /website/var/backup/*
@@ -568,7 +568,7 @@ ipshared
 /website/var/versions/object/*
 /website/var/user-image/*
 
-# Magento2
+## Magento2
 /sitemap
 /pub/sitemap
 /app/config_sandbox
@@ -591,7 +591,7 @@ ipshared
 /vendor/*
 /generated/*
 
-# Bitrix
+## Bitrix
 /bitrix/*
 !/bitrix/templates
 !/bitrix/components
@@ -601,7 +601,7 @@ ipshared
 !/bitrix/php_interface/
 /upload/
 
-# Drupal7
+## Drupal7
 files/
 sites/*/files
 sites/*/private
@@ -613,13 +613,13 @@ sites/*/translations
 /scripts
 /themes
 
-# CodeSniffer
+## CodeSniffer
 /wpcs/*
 
-# Jigsaw
+## Jigsaw
 build_*
 
-# Magento1
+## Magento1
 /media/*
 !/media/customer
 /media/customer/*
@@ -639,31 +639,31 @@ build_*
 !/var/package
 /var/package/*
 
-# ThinkPHP
+## ThinkPHP
 /Application/Runtime/
 
-# AtmelStudio
+## AtmelStudio
 [Dd]ebug/
 [Rr]elease/
 
-# IAR_EWARM
+## IAR_EWARM
 EWARM/**/Obj
 EWARM/**/List
 EWARM/**/Exe
 EWARM/settings
 
-# esp-idf
+## esp-idf
 build/
 sdkconfig
 
-# Concrete5
+## Concrete5
 error_log
 files/cache/*
 files/tmp/*
 /application/files/*
 /updates/*
 
-# Drupal
+## Drupal
 /sites/*/files
 /sites/*/public
 /sites/*/private
@@ -676,10 +676,10 @@ files/tmp/*
 /core
 /vendor
 
-# Mercury
+## Mercury
 Mercury/
 
-# Joomla
+## Joomla
 /administrator/cache/*
 /administrator/components/com_actionlogs/*
 /administrator/components/com_admin/*
@@ -939,16 +939,16 @@ Mercury/
 /templates/system/*
 /tmp/*
 
-# Yii
+## Yii
 assets/*
 protected/runtime/*
 themes/classic/views/
 
-# Rust
+## Rust
 debug/
 target/
 
-# Node
+## Node
 logs
 pids
 lib-cov
@@ -961,12 +961,12 @@ web_modules/
 out
 dist
 
-# PureScript
+## PureScript
 bower_components
 node_modules
 output
 
-# JBoss
+## JBoss
 jboss/server/all/tmp/**/*
 jboss/server/all/data/**/*
 jboss/server/all/work/**/*
@@ -977,7 +977,7 @@ jboss/server/minimal/tmp/**/*
 jboss/server/minimal/data/**/*
 jboss/server/minimal/work/**/*
 
-# Grails
+## Grails
 /web-app/WEB-INF/classes
 /test/reports
 /logs
@@ -985,10 +985,10 @@ jboss/server/minimal/work/**/*
 /web-app/plugins
 /target
 
-# C
+## C
 *.dSYM/
 
-# ZendFramework
+## ZendFramework
 vendor/
 data/logs/
 data/cache/
@@ -1000,7 +1000,7 @@ data/DoctrineORMModule/cache/
 demos/
 extras/documentation
 
-# PlayFramework
+## PlayFramework
 bin/
 /db
 /lib/
@@ -1013,7 +1013,7 @@ tmp/
 test-result
 /dist/
 
-# SugarCRM
+## SugarCRM
 /cache/*
 /custom/history/
 /custom/modulebuilder/
@@ -1023,7 +1023,7 @@ test-result
 /upload/*
 /upload_backup/
 
-# ExpressionEngine
+## ExpressionEngine
 images/avatars/
 images/captchas/
 images/smileys/
@@ -1035,12 +1035,12 @@ thumbs/
 _thumbs/
 */expressionengine/cache/*
 
-# KiCad
+## KiCad
 *~
 _autosave-*
 fp-info-cache
 
-# Plone
+## Plone
 bin/
 build/
 develop-eggs/
@@ -1051,33 +1051,33 @@ parts/
 dist/
 var/
 
-# D
+## D
 docs/
 
-# CFWheels
+## CFWheels
 plugins/**/*
 files
 db/sql
 javascripts/bundles
 stylesheets/bundles
 
-# Yeoman
+## Yeoman
 node_modules/
 bower_components/
 build/
 dist/
 
-# Nanoc
+## Nanoc
 output/
 tmp/nanoc/
 
-# Erlang
+## Erlang
 rel/example_project
 deps
 _build/
 _checkouts/
 
-# VisualStudio
+## VisualStudio
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -1140,7 +1140,7 @@ ASALocalRun/
 healthchecksdb
 MigrationBackup/
 
-# Perl
+## Perl
 !Build/
 cover_db/
 _build/
@@ -1151,20 +1151,20 @@ inc/
 /Makefile
 /pm_to_blib
 
-# OCaml
+## OCaml
 _build/
 _opam/
 
-# Agda
+## Agda
 MAlonzo/**
 
-# Clojure
+## Clojure
 /lib/
 /classes/
 /target/
 /checkouts/
 
-# OpenCart
+## OpenCart
 download/
 image/data/
 image/cache/
@@ -1174,36 +1174,36 @@ system/storage/
 vqmod/logs/*
 vqmod/vqcache/*
 
-# Kotlin
+## Kotlin
 hs_err_pid*
 
-# Julia
+## Julia
 deps/downloads/
 deps/usr/
 docs/build/
 docs/site/
 
-# Opa
+## Opa
 _build
 _tracks
 opa-debug-js
 
-# Windows
+## Windows
 $RECYCLE.BIN/
 
-# MonoDevelop
+## MonoDevelop
 test-results/
 
-# JDeveloper
+## JDeveloper
 temp/
 classes/
 deploy/
 javadoc/
 
-# CodeKit
+## CodeKit
 /min
 
-# VirtualEnv
+## VirtualEnv
 [Bb]in
 [Ii]nclude
 [Ll]ib
@@ -1211,7 +1211,7 @@ javadoc/
 [Ll]ocal
 [Ss]cripts
 
-# Tags
+## Tags
 TAGS
 !TAGS/
 tags
@@ -1221,62 +1221,62 @@ GRTAGS
 GPATH
 GSYMS
 
-# Virtuoso
+## Virtuoso
 lvsRunDir/*
 drcRunDir/*
 
-# PSoCCreator
+## PSoCCreator
 Debug/
 Release/
 Export/
 */codegentemp
 */Generated_Source
 
-# Calabash
+## Calabash
 rerun/
 reports/
 screenshots/
 test-servers/
 vendor
 
-# TextMate
+## TextMate
 tmtags
 
-# Lazarus
+## Lazarus
 backup/
 lib/
 *.app/
 
-# macOS
+## macOS
 Icon
 
 Network Trash Folder
 Temporary Items
 
-# EiffelStudio
+## EiffelStudio
 EIFGENs
 
-# MATLAB
+## MATLAB
 helpsearch*/
 slprj/
 sccprj/
 codegen/
 octave-workspace
 
-# FlexBuilder
+## FlexBuilder
 bin/
 bin-debug/
 bin-release/
 
-# Eclipse
+## Eclipse
 bin/
 tmp/
 
-# Vim
+## Vim
 *~
 tags
 
-# SynopsysVCS
+## SynopsysVCS
 simv
 simv.daidir/
 simv.db.dir/
@@ -1284,7 +1284,7 @@ simv.vdb/
 urgReport/
 DVEfiles/
 
-# Emacs
+## Emacs
 *~
 \#*\#
 auto-save-list
@@ -1297,33 +1297,33 @@ tramp
 dist/
 /server/
 
-# Momentics
+## Momentics
 x86/
 arm/
 arm-p/
 
-# Linux
+## Linux
 *~
 
-# SublimeText
+## SublimeText
 Package Control.cache/
 Package Control.ca-certs/
 
-# CVS
+## CVS
 /CVS/*
 **/CVS/*
 
-# Dreamweaver
+## Dreamweaver
 _notes
 _compareTemp
 configs/
 
-# Xcode
+## Xcode
 xcuserdata/
 build/
 DerivedData/
 
-# WebMethods
+## WebMethods
 **/IntegrationServer/datastore/
 **/IntegrationServer/db/
 **/IntegrationServer/DocumentStore/
@@ -1339,51 +1339,51 @@ DerivedData/
 **/IntegrationServer/XAStore/
 **/IntegrationServer/packages/Wm*/
 
-# ModelSim
+## ModelSim
 [_@]*
 wlf*
 cov*/
 transcript*
 
-# NetBeans
+## NetBeans
 **/nbproject/private/
 build/
 nbbuild/
 dist/
 nbdist/
 
-# JetBrains
+## JetBrains
 cmake-build-*/
 out/
 
-# Octave
+## Octave
 helpsearch*/
 slprj/
 sccprj/
 codegen/
 octave-workspace
 
-# SBT
+## SBT
 dist/*
 target/
 lib_managed/
 project/boot/
 project/plugins/project/
 
-# XilinxISE
+## XilinxISE
 iseconfig/
 xlnx_auto_0_xdb/
 xst/
 _ngo/
 _xmsgs/
 
-# Smalltalk
+## Smalltalk
 /package-cache
 /play-cache
 /play-stash
 /github-cache
 
-# Magento
+## Magento
 /media/*
 !/media/customer
 /media/customer/*
@@ -1403,16 +1403,16 @@ _xmsgs/
 !/var/package
 /var/package/*
 
-# TurboGears2
+## TurboGears2
 data/*
 dist
 build
 
-# ChefCookbook
+## ChefCookbook
 /cookbooks
 bin/*
 
-# TeX
+## TeX
 latex.out/
 *-gnuplottex-*
 *-tikzDictionary
@@ -1422,7 +1422,7 @@ pythontex-files-*/
 TSWLatexianTemp*
 *~[0-9]*
 
-# Rails
+## Rails
 /public/system
 /coverage/
 /spec/tmp
@@ -1437,11 +1437,11 @@ node_modules/
 /storage/*
 /public/uploads
 
-# Dart
+## Dart
 build/
 doc/api/
 
-# Ruby
+## Ruby
 /coverage/
 /InstalledFiles
 /pkg/
@@ -1458,7 +1458,7 @@ build-iPhoneSimulator/
 /vendor/bundle
 /lib/bundler/man/
 
-# Textpattern
+## Textpattern
 rpc/
 sites/site*/admin/
 sites/site*/private/
@@ -1467,7 +1467,7 @@ sites/site*/public/setup/
 sites/site*/public/theme/
 textpattern/
 
-# Autotools
+## Autotools
 /ar-lib
 /mdate-sh
 /py-compile
@@ -1481,27 +1481,27 @@ textpattern/
 /stamp-h1
 Makefile
 
-# Qooxdoo
+## Qooxdoo
 cache
 cache-downloads
 inspector
 api
 
-# Maven
+## Maven
 target/
 
-# Waf
+## Waf
 waf-*-*/
 waf3-*-*/
 
-# Qt
+## Qt
 Makefile*
 *build-*
 
-# ForceDotCom
+## ForceDotCom
 Referenced Packages
 
-# SeamGen
+## SeamGen
 /bootstrap/data
 /bootstrap/tmp
 /classes/
@@ -1512,7 +1512,7 @@ Referenced Packages
 /test-report/
 /target/
 
-# RhodesRhomobile
+## RhodesRhomobile
 rholog-*
 sim-*
 bin/libs
@@ -1520,28 +1520,28 @@ bin/RhoBundle
 bin/tmp
 bin/target
 
-# Xojo
+## Xojo
 Builds*
 Debug*/Debug*\ Libs
 
-# Haskell
+## Haskell
 dist
 dist-*
 cabal-dev
 
-# Elm
+## Elm
 elm-stuff
 repl-temp-*
 
-# AppceleratorTitanium
+## AppceleratorTitanium
 build/
 
-# CraftCMS
+## CraftCMS
 /craft/storage/*
 !/craft/storage/rebrand
 
-# Gradle
+## Gradle
 **/build/
 
-# Elisp
+## Elisp
 *~

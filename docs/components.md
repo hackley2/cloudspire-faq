@@ -1,10 +1,10 @@
-# I received the update pack and noticed some of the hexes on my islands are forests but the scenario book says they are plains, which is correct?
+## I received the update pack and noticed some of the hexes on my islands are forests but the scenario book says they are plains, which is correct?
 
 Those hexes are plains. The neoprene isles numbers 7 and 8 in the second printing of cloudspire have
 some small graphical changes to help with clarity. These hexes were always meant to be plains hexes
 and the graphics were changed to make that distinction more clear
 
-# What components are considered limited?
+## What components are considered limited?
 
 Attack, range, and fortification upgrade chips are considered limited.
 
