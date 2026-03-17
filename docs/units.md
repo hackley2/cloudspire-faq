@@ -117,3 +117,8 @@ forms of damage are not ‘attacks’
 
 Nope! The splash is used on an attack, not on the actual dealing of damage. A spire is considered to
 have attacked even if the result of their attack deals no damage
+
+## The new AI talent sheet changed the wording for Incorporeal. Is that a typo or a rule change?
+
+Yes, this is indeed errata, the rule didn’t change. It should say “can move through opposing units” 
+instead of "can move through units"

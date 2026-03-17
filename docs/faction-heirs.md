@@ -38,7 +38,7 @@ Elfinkazi
 
 Elfinkazi move with the unit they are perched on. This will trigger effects that happen on movement,
 like Toxic Secretion, but does not count as the Elfinkazi’s move for the turn. An Elfinkazi may move
-after it’s roost.
+after its roost.
 
 Importantly, an Elfinkazi does not ‘gain’ movement when it moves into a roost. It only changes its
 movement stat. If an Elfinkazi moves 2 hexes from its roost to move onto a Regal Lookout spire (3
@@ -69,3 +69,10 @@ heroes that they target
 Yes. If fury kick triggers while adjacent to a unit with flying, the flying unit will take damage.
 Although fury kick is an attack, the unit that is being attacked by the joust is not the unit with
 flying. Flying only prevents the unit from being attacked, not from being damaged.
+
+## If a spire with Splash attacks a Humminger, and the Humminger has an Elfinkaze on top of it, will the Elfinkaze get splash damage? Rules as written this is a pretty clear "no", but this has been asked a few times and some people "feel" like something splashing would work on the target hex.
+
+No. The Elfinkaze is not adjacent to the Humminger.
+
+However, for clarity. If the spire with Splash targeted a unit adjacent to the Humminger with an 
+Elfinkaze on top, both the Humminger and Elfinkaze would take the damage as they are both adjacent to the target.
