@@ -49,3 +49,7 @@ hero would not level up for removing the health from this landmark
 
 No. When a unit with a spire reward is defeated it only grants a spire reward on the hex it was
 defeated on and only if it is a Source well
+
+## Can a unit Overload a Gateport in the middle of movement? And in the Shada's case, immediately use the freed-up Source Well to fuse?
+
+Yes, this is valid. For example, a minion with movement 4 could do the following: move 2, overload, move 2 more.
