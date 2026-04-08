@@ -1,6 +1,6 @@
 ## Cloudspire FAQ
 
-[https://hackley2.github.io/cloudspire-faq/]()
+[https://hackley2.github.io/cloudspire-faq/](https://hackley2.github.io/cloudspire-faq/#/)
 
 ##  To contribute
 
